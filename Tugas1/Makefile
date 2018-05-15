@@ -1,7 +1,3 @@
-all: clean build run
-
-clean: # remove data and binary folder
-
-build: # compile to binary (if you use interpreter, then do not implement it)
-
-run: # run your binary
+# all: clean run
+# clean: rm data/data.json
+run: python3 src/program.py
